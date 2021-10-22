@@ -18,6 +18,8 @@ public class Detalle_Venta {
 	private Double valor_total;
 	private Double valor_venta;
 	private Double valor_iva;
+	
+	
 	public Long getCodigo_detalle_venta() {
 		return codigo_detalle_venta;
 	}
@@ -60,6 +62,7 @@ public class Detalle_Venta {
 	public void setValor_iva(Double valor_iva) {
 		this.valor_iva = valor_iva;
 	}
+	
 	
 	
 	
